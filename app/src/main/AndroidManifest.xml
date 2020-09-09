@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.empowerilliterate" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminLogin" >
+        </activity>
+        <activity android:name=".HirerLogin" >
+        </activity>
+        <activity android:name=".HirerReg" >
+        </activity>
+        <activity android:name=".HirerHome" >
+        </activity>
+        <activity android:name=".AdminHome" >
+        </activity>
+        <activity android:name=".HirerDetails" >
+        </activity>
+        <activity android:name=".HireeDetails" >
+        </activity>
+        <activity android:name=".SearchDetails" >
+        </activity>
+        <activity android:name=".HireeHome" >
+        </activity>
+        <activity android:name=".HirerSearch" >
+        </activity>
+        <activity android:name=".HireeUpdate" >
+        </activity>
+        <activity android:name=".HireeHits" >
+        </activity>
+        <activity android:name=".HireeLogin" >
+        </activity>
+        <activity android:name=".HireeReg" >
+        </activity>
+        <activity android:name=".HirerUpdate" >
+        </activity>
+        <activity android:name=".HirerSearch1" >
+        </activity>
+        <activity android:name=".HirerSearch2" >
+        </activity>
+    </application>
+
+</manifest>
